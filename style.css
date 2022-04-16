@@ -682,6 +682,22 @@ body {
     color: rgb(85, 173, 231);
 }
 
+body > h5{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    letter-spacing: .4px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 60px;
+    padding-bottom: 50px;
+    color: rgb(73, 73, 73);
+    text-align: center;
+}
 #hyy > h5{
     display: -webkit-box;
     display: -ms-flexbox;
@@ -699,6 +715,10 @@ body {
     text-align: center;
 }
 
+body > h5 i{
+    margin: 0 5px;
+    color: red;
+}
 #hyy > h5 i{
     margin: 0 5px;
     color: red;
