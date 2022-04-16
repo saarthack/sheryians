@@ -22,6 +22,10 @@ body {
     height: 100%;
     width: 100%;
 }
+#main{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
 
 #entryLevel{
     display: -webkit-box;
@@ -678,7 +682,7 @@ body {
     color: rgb(85, 173, 231);
 }
 
-body > h5{
+#hyy > h5{
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -690,12 +694,12 @@ body > h5{
         -ms-flex-align: center;
             align-items: center;
     margin-top: 60px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     color: rgb(73, 73, 73);
     text-align: center;
 }
 
-body > h5 i{
+#hyy > h5 i{
     margin: 0 5px;
     color: red;
 }
@@ -910,6 +914,7 @@ html{
 #page1{
     height: 100vh;
     width: 100vw;
+    margin-bottom: 20vh;
 }
 #page1-top{
     background-image: url(https://images.unsplash.com/photo-1469334031218-e382a71b716b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80);
